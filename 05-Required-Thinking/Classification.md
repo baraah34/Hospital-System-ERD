@@ -1,5 +1,6 @@
-| Item | Classification | Reason |
-|     |                  |                |
-| Age | Derived Attribute | Calculated from DOB. |
-| Amount | Derived Attribute | Calculated from Service Prices. | 
-| Heads  | 1:1 Relationship | One doctor leads one department. |
+Appointment Statu :History Tracking: We use labels like "Cancelled" instead of deleting
+
+Doctor Inactive:Data Integrity:	We mark a doctor as "Inactive" rather than deleting them
+
+Payment Details:	Multi-Method: Tracking	Breaking this into "Cash" and "Visa" allows a patient to pay a single bill using different ways
+
